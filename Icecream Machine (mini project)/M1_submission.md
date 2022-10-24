@@ -1,6 +1,6 @@
 <table><tr><td> <em>Assignment: </em> IS601 - Mini Project 1 - IceCream</td></tr>
 <tr><td> <em>Student: </em> Abhinav Chowdawaram (ac2526)</td></tr>
-<tr><td> <em>Generated: </em> 10/24/2022 2:18:39 AM</td></tr>
+<tr><td> <em>Generated: </em> 10/24/2022 10:45:28 AM</td></tr>
 <tr><td> <em>Grading Link: </em> <a rel="noreferrer noopener" href="https://learn.ethereallab.app/homework/IS601-005-F22/is601-mini-project-1-icecream/grade/ac2526" target="_blank">Grading</a></td></tr></table>
 <table><tr><td> <em>Instructions: </em> <ol><li>Create a new branch per the desired branch name below</li><li>Add the baseline files from the following link:&nbsp;<a href="https://gist.github.com/MattToegel/17d0ac833a03580d010ad92e83fc4216">https://gist.github.com/MattToegel/17d0ac833a03580d010ad92e83fc4216</a>&nbsp;</li><li>Put them into a subfolder in your repository folder (I called my folder IcecreamMachine)</li><li>git add .</li><li>git commit -m "baseline files"</li><li>git push origin (name of desired branch below)</li><li>You can go to github and open the pull request for evidence capturing later (don't close/merge the pull request until you're done with the assignment)</li><li>Do the below tasks and fill in the below entries</li><ol><li>git add/commit after any significant changes to build up history</li></ol><li>Save the input and generate the submission markdown file (copy to clipboard or download the file)</li><li>Name it something relevant to the assignment if it's not named already</li><li>git add the submission file</li><li>git commit the submission file</li><li>git push the submission file</li><li>Complete the pull request to dev</li><li>Create a pull request from dev to prod</li><li>Go to the prod branch on github, navigate to the submission file</li><li>Paste that link to Canvas</li></ol></td></tr></table>
 <table><tr><td> <em>Deliverable 1: </em> Code Changes - Add the calculate_cost() implementation </td></tr><tr><td><em>Status: </em> <img width="100" height="20" src="http://via.placeholder.com/400x120/009955/fff?text=Complete"></td></tr>
@@ -59,7 +59,7 @@
 <tr><td><img width="768px" src="https://user-images.githubusercontent.com/113549290/197460137-c075e388-5c81-4d13-b593-ef96056748a2.png"/></td></tr>
 <tr><td> <em>Caption:</em> <p>This screenshot contains the test case which test the Total icecreams that properly<br>increment for each purchase(Test - 8)<br></p>
 </td></tr>
-<tr><td><img width="768px" src="https://user-images.githubusercontent.com/113549290/197460156-7fb4db77-a7cd-4541-abfb-679cd9e052e1.png"/></td></tr>
+<tr><td><img width="768px" src="https://user-images.githubusercontent.com/113549290/197554743-a76752dd-68ce-4d32-a823-1ca1ebecb297.png"/></td></tr>
 <tr><td> <em>Caption:</em> <p>This screenshot showing all the Test 1-8 passing<br></p>
 </td></tr>
 </table></td></tr>
