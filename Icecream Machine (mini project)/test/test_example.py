@@ -3,7 +3,7 @@ import pytest
 # make sure the first word matches your package/folder name
 from IcecreamMachine import IceCreamMachine
 from IcecreamMachine import STAGE
-#this is an example test showing how to cascade fixtures to build up state
+#this is an example test showing how to cascade fixtures to build up state.
 
 from IcecreamExceptions import ExceededRemainingChoicesException, OutOfStockException
 
