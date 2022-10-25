@@ -35,12 +35,12 @@ def second_order(first_order, machine):
 def test_production_line(second_order):
     assert second_order is not None
 
-# UCID: sp2927
+# UCID: ac2526
 # Date: 21 Oct 2022
 def test_first_selection(machine):
     assert machine.currently_selecting.name == STAGE.Container.name
 
-# UCID: sp2927
+# UCID: ac2526
 # Date: 21 Oct 2022
 def test_flavour_in_stock(machine):
     # setting available quantity to 1 for testing convenience
@@ -53,7 +53,7 @@ def test_flavour_in_stock(machine):
     except OutOfStockException:
         assert False
 
-# UCID: sp2927
+# UCID: ac2526
 # Date: 21 Oct 2022
 def test_toppings_in_stock(machine):
     # setting available quantity to 1 for testing convenience
@@ -67,7 +67,7 @@ def test_toppings_in_stock(machine):
     except OutOfStockException:
         assert False
 
-# UCID: sp2927
+# UCID: ac2526
 # Date: 21 Oct 2022
 def test_max_scoops(machine):
     machine.handle_container("cup")
@@ -80,7 +80,7 @@ def test_max_scoops(machine):
     except ExceededRemainingChoicesException:
         assert False
 
-# UCID: sp2927
+# UCID: ac2526
 # Date: 21 Oct 2022
 def test_max_toppings(machine):
     machine.handle_container("cup")
@@ -94,7 +94,7 @@ def test_max_toppings(machine):
     except ExceededRemainingChoicesException:
         assert False
 
-# UCID: sp2927
+# UCID: ac2526
 # Date: 21 Oct 2022
 def test_total_cost(machine1):
     machine1.reset()
@@ -109,7 +109,7 @@ def test_total_cost(machine1):
     machine1.handle_toppings("done")
     assert machine1.calculate_cost() == '4.75'
 
-# UCID: sp2927
+# UCID: ac2526
 # Date: 21 Oct 2022
 def test_total_sales(machine1):
     machine1.handle_container("cup")
@@ -132,7 +132,7 @@ def test_total_sales(machine1):
 
     assert machine1.total_sales == iceCreamCost1 + iceCreamCost2
 
-# UCID: sp2927
+# UCID: ac2526
 # Date: 21 Oct 2022
 def test_total_icecreams(second_order, machine1):
     machine1.handle_container("cup")
