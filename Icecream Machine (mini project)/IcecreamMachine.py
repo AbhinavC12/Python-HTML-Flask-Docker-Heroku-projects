@@ -14,7 +14,7 @@ class Usable:
         self.quantity = quantity
         self.cost = cost
 
-    # UCID: sp2927
+    # UCID: ac2526
     # Date: 20 Oct 2022
     def use(self):
         self.quantity -= 1
@@ -89,7 +89,7 @@ class IceCreamMachine:
         except:
             print(f"\"{choice}\" is an invalid Choice, Choose only from the options below")
 
-    # UCID: sp2927
+    # UCID: ac2526
     # Date: 20 Oct 2022
     def pick_flavor(self, choice):
         try:
@@ -124,7 +124,7 @@ class IceCreamMachine:
         except:
             print(f"\"{choice}\" is an invalid Choice, Choose only from the options below")
 
-    # UCID: sp2927
+    # UCID: ac2526
     # Date: 20 Oct 2022
     def pick_toppings(self, choice):
         try:
@@ -141,7 +141,7 @@ class IceCreamMachine:
                 self.inprogress_icecream.append(t)
                 self.remaining_toppings -= 1
                 return
-        # UCID: sp2927
+        # UCID: ac2526
         # Date: 20 Oct 2022
         try:
             raise InvalidChoiceException
@@ -173,7 +173,7 @@ class IceCreamMachine:
         else:
             self.pick_toppings(toppings)
 
-    # UCID: sp2927
+    # UCID: ac2526
     # Date: 20 Oct 2022
     def handle_pay(self, expected, total):
         if total == str(expected):
@@ -188,7 +188,7 @@ class IceCreamMachine:
                 print("Amount entered didn't match with the total. Please re-enter")
                 self.run()
             
-    # UCID: sp2927
+    # UCID: ac2526
     # Date: 20 Oct 2022
     def calculate_cost(self):
         # TODO add the calculation expression/logic for the inprogress_icecream
