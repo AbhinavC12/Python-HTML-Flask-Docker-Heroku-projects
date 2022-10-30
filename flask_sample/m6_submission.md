@@ -1,0 +1,31 @@
+<table><tr><td> <em>Assignment: </em> Sample Flask App and Readings</td></tr>
+<tr><td> <em>Student: </em> Abhinav Chowdawaram (ac2526)</td></tr>
+<tr><td> <em>Generated: </em> 10/30/2022 4:02:03 PM</td></tr>
+<tr><td> <em>Grading Link: </em> <a rel="noreferrer noopener" href="https://learn.ethereallab.app/homework/IS601-005-F22/sample-flask-app-and-readings/grade/ac2526" target="_blank">Grading</a></td></tr></table>
+<table><tr><td> <em>Instructions: </em> <ol><li>&nbsp;Follow the slides from class.&nbsp;</li><li>&nbsp;Get the sample app deployed to Heroku dev</li><li>&nbsp;Once finished with the slides create a pull request from the lesson branch to dev (don't close it yet)&nbsp;</li><li>&nbsp;Create an m6_submission.md file in the same directory as the flask sample app&nbsp;</li><li>&nbsp;Fill in the deliverables below&nbsp;</li><li>&nbsp;Generate the markdown and paste the content into the new md file&nbsp;</li><li>&nbsp;git add/commit/push&nbsp;</li><li>&nbsp;Complete the pull request&nbsp;</li><li>&nbsp;Create a pull request from dev to prod&nbsp;</li><li>&nbsp;Complete the merge&nbsp;</li><li>&nbsp;Locally checkout dev&nbsp;</li><li>&nbsp;git pull the latest dev changes&nbsp;</li><li>&nbsp;On GitHub navigate to the location of the m6_submission.md file from the prod branch&nbsp;</li><li>&nbsp;Grab that direct link and submit it to Canvas</li></ol></td></tr></table>
+<table><tr><td> <em>Deliverable 1: </em> Proof App has been deployed </td></tr><tr><td><em>Status: </em> <img width="100" height="20" src="http://via.placeholder.com/400x120/009955/fff?text=Complete"></td></tr>
+<tr><td><table><tr><td> <em>Sub-Task 1: </em> Screenshot the output of the app (including the url) showing it's running from Heroku dev</td></tr>
+<tr><td><table><tr><td><img width="768px" src="https://user-images.githubusercontent.com/113549290/198896710-8f0e0f3f-dd97-444d-8249-5b002b4376b9.png"/></td></tr>
+<tr><td> <em>Caption:</em> <p>This is the screenshot of &quot;HELLO WORLD&quot; from the heroku-dev app.<br></p>
+</td></tr>
+</table></td></tr>
+<tr><td> <em>Sub-Task 2: </em> Add a direct link to the app here (prod url)</td></tr>
+<tr><td> <a rel="noreferrer noopener" target="_blank" href="https://is601-ac2526-prod.herokuapp.com/">https://is601-ac2526-prod.herokuapp.com/</a> </td></tr>
+</table></td></tr>
+<table><tr><td> <em>Deliverable 2: </em> Misc </td></tr><tr><td><em>Status: </em> <img width="100" height="20" src="http://via.placeholder.com/400x120/009955/fff?text=Complete"></td></tr>
+<tr><td><table><tr><td> <em>Sub-Task 1: </em> Add a link to the pull request from Flask-Sample-HW to Dev</td></tr>
+<tr><td> <a rel="noreferrer noopener" target="_blank" href="https://github.com/AbhinavC12/IS601-005-31597122/pull/37">https://github.com/AbhinavC12/IS601-005-31597122/pull/37</a> </td></tr>
+<tr><td> <em>Sub-Task 2: </em> Did you have any issues during setup and if so how did you resolve them, otherwise what did you learn?</td></tr>
+<tr><td> <em>Response:</em> <p>I have got no issues with the flask setup but my paths have<br>been changed in environment variables and couldn&#39;t use my python for a while,<br>later I reinstalled python, and then I was able to execute and install<br>all the necessary extensions in python and then I have completed my flask<br>setup easily.<br></p><br></td></tr>
+</table></td></tr>
+<table><tr><td> <em>Deliverable 3: </em> Readings </td></tr><tr><td><em>Status: </em> <img width="100" height="20" src="http://via.placeholder.com/400x120/009955/fff?text=Complete"></td></tr>
+<tr><td><table><tr><td> <em>Sub-Task 1: </em> What can you tell me about docker? Describe the various steps needed to get an app ran inside a docker container in your own words</td></tr>
+<tr><td> <em>Response:</em> <p>Docker is An open platform for creating, distributing, and running programs.&nbsp;it enables you<br>to separate your applications from your local infrastructure and where you can deliver<br>your software quickly.<br><span style="letter-spacing: 0.09996px;">Steps needed to get an app ran inside a<br>docker container:<br></span><div>- Initialize an empty new project</div><div>- Populate the project</div><div>- Validate the app</div><div>-<br>Deploy the app</div><div>- Push the app to Docker Hub</div><div>- Install the app directly<br>from Docker Hub</div><br></p><br></td></tr>
+<tr><td> <em>Sub-Task 2: </em> What is Heroku? Why do you feel it was chosen for this class?</td></tr>
+<tr><td> <em>Response:</em> <p class="MsoNormal">Heroku is a container-based Cloud Platform as a Service (PaaS). Users use<br>Heroku to deploy, manage and scale modern apps.<br>This was chosen for this class<br>as it is open and extensible and also well known for running apps<br>in dynos- which are essentially just virtual machines that can be powered based<br>on the user applications.</p><p class="MsoNormal"><br></p><br></td></tr>
+<tr><td> <em>Sub-Task 3: </em> What is flask? List a few things you learned about it</td></tr>
+<tr><td> <em>Response:</em> <div>Flask is a micro web framework written in Python. It is described as<br>a microframework because it does not require particular tools or libraries.</div><div>It doesn't have<br>a form validation layer, database abstraction layer, or any other component where pre-existing<br>third-party libraries already provide common functions.</div><div>Flask is used for developing web applications with<br>python, implemented on Werkzeug and Jinja2.</div><br></td></tr>
+<tr><td> <em>Sub-Task 4: </em> What is the difference between a Dockerfile and a Github Action .yml file?</td></tr>
+<tr><td> <em>Response:</em> <p>Dockerfile is said to be a simple text file that contains all the<br>instructions to build Docker images.<br>Whereas the action .yml file describes your action which<br>is called a metadata file and uses the metadata syntax for GitHub Actions.<br></p><br></td></tr>
+</table></td></tr>
+<table><tr><td><em>Grading Link: </em><a rel="noreferrer noopener" href="https://learn.ethereallab.app/homework/IS601-005-F22/sample-flask-app-and-readings/grade/ac2526" target="_blank">Grading</a></td></tr></table>
