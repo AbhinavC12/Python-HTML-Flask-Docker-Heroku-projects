@@ -1,6 +1,6 @@
 import os
 
-from flask import Flask, request
+from flask_sample import Flask, request
 
 app = Flask(__name__)
 
