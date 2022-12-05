@@ -55,4 +55,3 @@ def test_edit_company(client):
     assert ele.get("value") == 'Testville'
     ele = form.select("[name='name']")[0]
     assert ele.get("value") == "_test-company"
-
