@@ -1,6 +1,5 @@
 import pytest
 
-
 @pytest.fixture()
 def app():
     from ..main import create_app
@@ -15,11 +14,9 @@ def app():
     DB.close()
     # clean up / reset resources here
 
-
 @pytest.fixture()
 def client(app):
     return app.test_client()
-
 
 @pytest.fixture()
 def runner(app):
