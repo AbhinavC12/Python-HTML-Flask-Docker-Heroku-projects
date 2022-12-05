@@ -9,7 +9,7 @@ on:
       - dev
       - MiniProject-2
 
-# Your workflows jobs.
+# Your workflows jobs
 jobs:
   build:
     runs-on: ubuntu-latest
