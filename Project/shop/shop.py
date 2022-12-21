@@ -71,7 +71,6 @@ def items():
     return render_template("items.html", rows=rows)
 
 @shop.route("/shop", methods=["GET","POST"])
-@login_required
 def shop_list():
     rows = []
     try:
