@@ -18,10 +18,11 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{url_for('shop.shop_list')}}">Shop</a>
-                    </li>
+                </li>
                 {% else %}
                 <li class="nav-item">
                     <a class="nav-link" href="{{url_for('auth.landing_page')}}">Home</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{url_for('shop.shop_list')}}">Shop</a>
                 </li>
@@ -29,6 +30,9 @@
                     <a class="nav-link" href="{{url_for('shop.cart')}}">Cart</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('shop.orders')}}">Orders</a>
+                        </li>
+                        <li class="nav-item">
                     <a class="nav-link" href="{{url_for('auth.profile')}}">Profile</a>
                 </li>
                 <!-- roles nav (requires admin )-->
@@ -54,11 +58,6 @@
                 {% endif %}
 
             </ul>
-            <span class="navbar-text">
-                {% if current_user.is_authenticated %}
-                Balance: {{current_user.get_balance()}}
-                {% endif %}
-              </span>
         </div>
     </div>
 </nav>
