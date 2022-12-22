@@ -1,6 +1,6 @@
 <table><tr><td> <em>Assignment: </em> IS601 Milestone 2 Shop Project</td></tr>
 <tr><td> <em>Student: </em> Abhinav Chowdawaram (ac2526)</td></tr>
-<tr><td> <em>Generated: </em> 12/22/2022 12:44:47 AM</td></tr>
+<tr><td> <em>Generated: </em> 12/22/2022 1:29:38 PM</td></tr>
 <tr><td> <em>Grading Link: </em> <a rel="noreferrer noopener" href="https://learn.ethereallab.app/homework/IS601-005-F22/is601-milestone-2-shop-project/grade/ac2526" target="_blank">Grading</a></td></tr></table>
 <table><tr><td> <em>Instructions: </em> <ol><li>Checkout Milestone2 branch</li><li>Create a new markdown file called milestone2.md</li><li>git add/commit/push immediate</li><li>Fill in the below deliverables</li><li>At the end copy the markdown and paste it into milestone2.md</li><li>Add/commit/push the changes to Milestone2</li><li>PR Milestone2 to dev and verify</li><li>PR dev to prod and verify</li><li>Checkout dev locally and pull changes to get ready for Milestone 3</li><li>Submit the direct link to this new milestone2.md file from your GitHub prod branch to Canvas</li></ol><p>Note: Ensure all images appear properly on github and everywhere else. Images are only accepted from dev or prod, not local host. All website links must be from prod (you can assume/infer this by getting your dev URL and changing dev to prod).</p></td></tr></table>
 <table><tr><td> <em>Deliverable 1: </em> Users with admin or shop owner will be able to add products </td></tr><tr><td><em>Status: </em> <img width="100" height="20" src="http://via.placeholder.com/400x120/009955/fff?text=Complete"></td></tr>
@@ -48,7 +48,7 @@
 <tr><td> <em>Sub-Task 5: </em> Add related pull request link(s)</td></tr>
 <tr><td> <a rel="noreferrer noopener" target="_blank" href="https://github.com/AbhinavC12/IS601-005-31597122/pull/62">https://github.com/AbhinavC12/IS601-005-31597122/pull/62</a> </td></tr>
 <tr><td> <em>Sub-Task 6: </em> Add a direct link to heroku prod for this file</td></tr>
-<tr><td> <a rel="noreferrer noopener" target="_blank" href="https://is601-ac2526-finalproj-prod.herokuapp.com/shop">https://is601-ac2526-finalproj-prod.herokuapp.com/shop</a> </td></tr>
+<tr><td> <a rel="noreferrer noopener" target="_blank" href="https://is601-ac2526-finalproj-prod.herokuapp.com/shop?name=&category=Electronics&price=ASC">https://is601-ac2526-finalproj-prod.herokuapp.com/shop?name=&category=Electronics&price=ASC</a> </td></tr>
 </table></td></tr>
 <table><tr><td> <em>Deliverable 3: </em> Show Admin/Shop Owner Product List (this is not the Shop page and should show visibility status) </td></tr><tr><td><em>Status: </em> <img width="100" height="20" src="http://via.placeholder.com/400x120/009955/fff?text=Complete"></td></tr>
 <tr><td><table><tr><td> <em>Sub-Task 1: </em> Screenshot of the Admin List page/results</td></tr>
@@ -102,12 +102,12 @@
 </table></td></tr>
 <table><tr><td> <em>Deliverable 5: </em> Product Details Page </td></tr><tr><td><em>Status: </em> <img width="100" height="20" src="http://via.placeholder.com/400x120/009955/fff?text=Complete"></td></tr>
 <tr><td><table><tr><td> <em>Sub-Task 1: </em> Add a screenshot showing the button (clickable item) that directs the user to the Product Details Page</td></tr>
-<tr><td><table><tr><td><img width="768px" src="https://user-images.githubusercontent.com/113549290/209059163-c1a00f0f-9b69-4a51-a747-cd2ddd47f5c2.png"/></td></tr>
+<tr><td><table><tr><td><img width="768px" src="https://user-images.githubusercontent.com/113549290/209179499-69888c93-138b-4e99-925a-045f501def8a.png"/></td></tr>
 <tr><td> <em>Caption:</em> <p>screenshot showing the button (clickable item) that directs the user to the Product<br>Details Page<br></p>
 </td></tr>
 </table></td></tr>
 <tr><td> <em>Sub-Task 2: </em> Add a screenshot showing the result of the Product Details Page</td></tr>
-<tr><td><table><tr><td><img width="768px" src="https://user-images.githubusercontent.com/113549290/209059171-24c550c6-e0ce-4c21-ab6b-b92f48bbbf2d.png"/></td></tr>
+<tr><td><table><tr><td><img width="768px" src="https://user-images.githubusercontent.com/113549290/209179586-4fcdeaba-3cc9-4efa-8154-0631818223d4.png"/></td></tr>
 <tr><td> <em>Caption:</em> <p>screenshot showing the result of the Product JBL Wireless In-Ear Headphones Details Page<br></p>
 </td></tr>
 </table></td></tr>
